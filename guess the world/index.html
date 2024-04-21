@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <h2>Guess The Word <span class="subject">Subject: <span id="subject"></span></span></h2>
+    </nav>
+    <header>
+        <div class="row">
+            <div class="game">
+    
+            </div>
+            <div class="btn" style="width: 100%; display: flex; align-items: center; justify-content: center; padding: 1rem; gap: 10px;">
+
+            </div>
+        </div>
+        <div class="HowToPlay">
+            <h4>How To Play</h4>
+            <p>
+                Try to Guess The Word in 6 Tries <br><br>
+                The color of the tiles will change to show how close your guess was to the word
+            </p>
+            <div class="right">
+                <img src="images/right.jpeg" alt="">
+                <span>Letter is Right And In Place</span>
+            </div>
+            <hr>
+            <div class="wrongPlace">
+                <img src="images/wrongPlace.jpeg" alt="">
+                <span>Letter is Right And Wrong Place</span>
+            </div>
+            <hr>
+            <div class="wrong">
+                <img src="images/wrong.jpeg" alt="">
+                <span>Letter is Wrong And doesn't Exist</span>
+            </div>
+            <hr>
+            <div class="hint">
+                <img src="images/hint.jpeg" alt="">
+                <span>This Button helps you to get hints to help you guess the word.</span>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>
